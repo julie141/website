@@ -1,0 +1,37 @@
+body{
+    background-color: chocolate;
+}
+h1{
+    color:darkred;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: medium;
+    text-align: center;
+}
+
+
+
+
+.products
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+
+.header{
+    display: flex;
+    flex-direction: row;
+    flex-flow: row-reverse;
+    justify-content: center;
+    padding:25px
+}
+.hlink
+{
+    display: flex;
+    margin-left: 1100px;
+    padding: 50px;
+    justify-content: space-between;
+    padding:14px
+
+}
